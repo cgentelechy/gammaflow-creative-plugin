@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "gammaflow-creative-gateway": {
+      "url": "https://creative.gammaflow.dev/mcp"
+    }
+  }
+}

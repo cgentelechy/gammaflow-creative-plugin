@@ -1,0 +1,19 @@
+{
+  "name": "creative-library-remote",
+  "version": "0.1.0",
+  "description": "Generate database-grounded ad and cold-email concepts through a private GammaFlow reference gateway.",
+  "author": {
+    "name": "GammaFlow"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Creative Library Remote",
+    "shortDescription": "Private creative references, generated in your Codex.",
+    "longDescription": "Creates a 12-concept ad slate or three three-email sequences from one expiring, de-identified reference packet. Source records and database access remain private; generation runs in the signed-in Codex account.",
+    "developerName": "GammaFlow",
+    "category": "Marketing",
+    "capabilities": ["Ad ideation", "Cold email sequences"],
+    "defaultPrompt": "Use my authorized GammaFlow creative workflow for this campaign."
+  },
+  "mcpServers": "./.mcp.json"
+}

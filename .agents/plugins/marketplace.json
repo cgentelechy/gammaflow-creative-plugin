@@ -1,0 +1,20 @@
+{
+  "name": "gammaflow-creative",
+  "interface": {
+    "displayName": "Gammaflow Creative"
+  },
+  "plugins": [
+    {
+      "name": "creative-library-remote",
+      "source": {
+        "source": "local",
+        "path": "./plugins/creative-library-remote"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Marketing"
+    }
+  ]
+}
